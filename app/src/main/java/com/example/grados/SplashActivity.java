@@ -21,16 +21,10 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
 
-        Button loginButton = findViewById(R.id.Login);
         ContTextView = findViewById(R.id.ContTextView);
 
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startCountDown();
-                loginButton.setEnabled(false);
-            }
-        });
+        startCountDown();
+
     }
 
     private void startCountDown() {
