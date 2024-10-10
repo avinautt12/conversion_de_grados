@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:text="Hola, espera un momento..."
-            android:textSize="22dp"
+            android:textSize="23dp"
             android:gravity="center"/>
 
         <com.airbnb.lottie.LottieAnimationView
